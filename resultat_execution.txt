@@ -1,0 +1,39 @@
+Résultat à l'exécution :
+========== TP Voiture - C++ ==========
+
+=== Informations du véhicule ===
+Marque : Peugeot
+Modèle : 208
+Puissance : 100 ch
+Carburant : Essence
+Vitesse : 0 km/h
+Moteur : Éteint
+===============================
+
+Le moteur de la Peugeot 208 est démarré.
+
+Accélération de 50 km/h. Vitesse : 50 km/h.
+
+=== Informations du véhicule ===
+...
+Vitesse : 50 km/h
+Moteur : Allumé
+...
+
+Ralentissement de 20 km/h. Vitesse : 30 km/h.
+
+=== Informations du véhicule ===
+...
+Vitesse : 30 km/h
+Moteur : Allumé
+...
+
+Le moteur est arrêté.
+
+=== Informations du véhicule ===
+...
+Vitesse : 0 km/h
+Moteur : Éteint
+...
+
+========== Fin du programme ==========
