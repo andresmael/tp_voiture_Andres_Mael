@@ -1,0 +1,9 @@
+*.o
+application_voiture
+a.out
+CMakeFiles/
+CMakeCache.txt
+Makefile
+.vscode/
+.idea/
+.DS_Store
