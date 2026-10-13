@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    cout << "========== TP Voiture - C++ ==========" << endl << endl;
+    cout << "TP Voiture :" << endl << endl;
 
     CVoiture voiture("Peugeot", "208", 100, "Essence");
 
@@ -21,7 +21,7 @@ int main() {
     voiture.arreter();
     voiture.afficherInfos();
 
-    cout << "========== Fin du programme ==========" << endl;
+    cout << "Fin du programme" << endl;
 
     return 0;
 }
