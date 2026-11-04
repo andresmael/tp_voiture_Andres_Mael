@@ -32,6 +32,7 @@ public:
     CRoue(std::string marque, std::string modele, int diametre)
     void arreter();
     void gonfler(int bar);
+    void degonfler(int bar);
     void crever();
 }
     
