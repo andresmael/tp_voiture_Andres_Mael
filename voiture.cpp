@@ -55,3 +55,16 @@ void CVoiture::arreter() {
         cout << "Le moteur est arrêté." << endl << endl;
     }
 }
+
+void CRoue::gonfler(int bar) {
+    pression += bar;
+}
+
+void CRoue::gonfler(int bar) {
+    pression -= bar;
+    if (pression < 0) pression = 0;
+}
+
+void CRoue::crever() {
+    pression = 0;
+}
