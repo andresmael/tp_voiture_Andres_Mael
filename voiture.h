@@ -29,7 +29,7 @@ private:
     bool crever;
 
 public:
-    CRoue(std::string marque, std::string modele, int diametre,
+    CRoue(std::string marque, std::string modele, int diametre)
     void arreter();
     void gonfler(int bar);
     void crever();
