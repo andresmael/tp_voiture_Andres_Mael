@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// ==================== CVoiture ====================
+
 CVoiture::CVoiture(string marque, string modele, int puissance, string carburant)
     : marque(marque), modele(modele), puissance(puissance), carburant(carburant),
       vitesse(0), moteurDemarre(false) {}
@@ -56,15 +58,21 @@ void CVoiture::arreter() {
     }
 }
 
+// ==================== CRoue ====================
+
+CRoue::CRoue(string marque, string modele, int diametre)
+    : marque(marque), modele(modele), pression(2), diametre(diametre), crever(false) {}
+
 void CRoue::gonfler(int bar) {
     pression += bar;
 }
 
-void CRoue::gonfler(int bar) {
+void CRoue::degonfler(int bar) {
     pression -= bar;
     if (pression < 0) pression = 0;
 }
 
 void CRoue::crever() {
     pression = 0;
+    crever = true;
 }
